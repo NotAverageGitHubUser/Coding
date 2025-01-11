@@ -1,0 +1,23 @@
+t = int(input())
+
+while t > 0 :
+
+    t -= 1
+
+    X = int(input())
+
+    if X <= 100 :
+
+        Y = X % 10 
+
+        X = X - Y 
+
+        if X >= 50:
+
+            print(100)
+
+        else:
+
+            print(0)
+
+ 
