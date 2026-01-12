@@ -19,5 +19,6 @@ while t > 0 :
         else:
 
             print(0)
+        
 
  
